@@ -37,8 +37,10 @@ const ListaPersonagens = () => {
         {selectAgent && (
           <div>
             <h2>Função do agente: {selectAgent.role}</h2>
-            <S.imageAgent src={selectAgent.img} alt={selectAgent.name} />
-            <p>{selectAgent.description}</p>
+            <div className="flex">
+              <S.imageAgent src={selectAgent.img} alt={selectAgent.name} />
+              <p>{selectAgent.description}</p>
+            </div>
           </div>
         )}
       </S.MainContent>

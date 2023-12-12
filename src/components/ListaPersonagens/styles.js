@@ -4,6 +4,10 @@ import { colors } from "../../styles";
 
 export const MainContent = styled.div`
   display: flex;
+  background-color: ${colors.secondary};
+  margin: 100px;
+  padding: 32px;
+  border-radius: 16px;
 
   > div {
     width: 100vh;
@@ -25,17 +29,22 @@ export const MainContent = styled.div`
     }
 
     p {
-      font-size: 32px;
+      font-size: 22px;
+      margin-top: 50px;
+    }
+
+    .flex {
+      display: flex;
     }
   }
 `;
 
 export const AgentsList = styled.h2`
-  font-size: 130px;
+  font-size: 80px;
   color: ${colors.white};
   cursor: pointer;
 `;
 
 export const imageAgent = styled.img`
-  width: 100%;
+  width: 65%;
 `;

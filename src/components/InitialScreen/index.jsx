@@ -38,7 +38,7 @@ const InitialScreen = () => {
                 selecionar qualquer um, e todos os dados irá ser carregado na
                 tela dinamicamente, de forma assíncrona, sem que ocorra o
                 carregamento completo da página, e sim, a troca de conteúdo a
-                cada REQUEST enviada.
+                cada REQUEST enviada. Para mais detalhes leia o README.md.
               </p>
 
               <p>

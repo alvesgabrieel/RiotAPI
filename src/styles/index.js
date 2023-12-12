@@ -4,6 +4,7 @@ import bg from "../assets/bg.png";
 
 export const colors = {
   primary: "#ff4655",
+  secondary: "rgba(255, 70, 85, 0.5)",
   white: "#fff",
   blue: "#4fc3f7",
 };
